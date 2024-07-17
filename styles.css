@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222222;
+  color: white;
+  font-family: Tahoma;
+  padding: 16px;
+}
+.logo {
+  font-size: 22px;
+}
+.moreinfo {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.herosection {
+  height: 800px;
+  background-image: url("Images/workspace.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maintext {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#h1 {
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  gap: 50px;
+}
+
+#button {
+  background-color: blue;
+  color: white;
+  width: 150px;
+  margin: auto;
+  display: block;
+  border: 0px;
+  border-radius: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.flex-container {
+  color: white;
+  margin-top: 80px;
+}
+#firsth1 {
+  font-size: 45px;
+  color: purple;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.innerdiv {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  gap: 40px;
+}
+.test {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.firstdiv {
+  display: flex;
+  gap: 100px;
+  margin-top: 60px;
+  width: 70%;
+  align-items: center;
+}
+
+.div1 {
+  background-color: purple;
+  width: 500px;
+  padding: 40px;
+  border-radius: 10px;
+  height: 200px;
+  margin: auto;
+}
+.div1 p {
+  width: 350px;
+}
+.div1 h2 {
+  margin-bottom: 10px;
+}
+.text {
+  width: 50%;
+  font-size: 20px;
+}
+
+#secondh1 {
+  color: purple;
+}
+
+.image img {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: purple;
+  color: white;
+  display: flex;
+  margin-top: 50px;
+}
+
+.footercontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 40px 80px;
+  letter-spacing: 2px;
+}
+
+.copyright {
+  display: flex;
+  background-color: purple;
+  color: white;
+  margin-top: 5px;
+  justify-content: center;
+  padding: 30px;
+}
+.copyright p {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+  .innerdiv {
+    width: 95%;
+    flex-direction: column;
+  }
+  .text {
+    width: 400px;
+    padding-left: 10px;
+  }
+  .image {
+    width: 100%;
+    padding-left: 20px;
+  }
+  .image img {
+    width: 250px;
+    margin: auto;
+  }
+  .customlinks {
+    font-size: 20px;
+  }
+  .firstdiv {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer1 h1 {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .footercontainer {
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  .customlinks h1 {
+    font-size: 25px;
+  }
+  .customlinks p {
+    font-size: 15px;
+  }
+  .legal h1 {
+    font-size: 25px;
+  }
+  .legal p {
+    font-size: 15px;
+  }
+  .sociallinks h1 {
+    font-size: 25px;
+  }
+  .sociallinks p {
+    font-size: 15px;
+  }
+}
